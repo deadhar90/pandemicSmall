@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>pandemic</title>
+	<script type="text/javascript" src="pandemicStart.js" defer></script>
+	<style type="text/css">
+		@import url(style.css);
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div id="alarmWindow">
+			<div class="map">
+				<div class="blocks">
+					<div class="alarmHeader">Epidemic Start</div>
+					<p>Infection status:<p>
+					<div id="startPandemic"></div>
+					<div id="totalStart"></div>
+					<div id="infectedStart"></div>
+				</div>
+				<div class="blocks">
+					<div class="alarmHeader">Epidemic End (prognosis)</div>
+					<p>Infection status:<p>
+					<div id="endPandemic"></div>
+					<div id="totalEnd"></div>
+					<div id="infectedEnd"></div>
+				</div>
+			</div>
+			<button onclick="window.location.href='https://lvlservice.kyiv.ua/pandemic/index.php'" target="_blank">More Info</button>
+		</div>
+	</div>
+	<footer>
+		<p>created by <a href="https://ru.lvlservice.kyiv.ua/" target="_blank">Lushchiy Leonid</a></p>
+	</footer>
+</body>
+</html>
